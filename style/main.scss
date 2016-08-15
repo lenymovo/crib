@@ -1,0 +1,47 @@
+body{
+	padding-right: 10px;
+}
+
+pre{
+	padding: 10px !important;
+}
+
+ul li{
+	list-style-type: none;
+}
+
+#sidebar-menu{
+	position: absolute;
+	left: 0;
+	top: 0;
+	bottom: 0;
+
+	width: 260px;
+	height: 100vh;
+
+	background: #FFF;
+}
+
+#content{
+	padding-left: 240px;
+
+	.content-container li{
+		background: lightgrey;
+		padding: 20px;
+		margin-bottom: 10px;
+		-webkit-border-radius: 10px;
+		        border-radius: 10px;
+	}
+
+	& > *{ cursor: default; }
+
+	p{
+		height: 30px;
+		line-height: 30px;
+	}
+
+	p:hover{
+		background: grey;
+	}
+}
+
